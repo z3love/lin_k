@@ -1,0 +1,104 @@
+.container{
+	height:56px;
+	display:flex;
+	justify-content:space-between;
+}
+.container div{
+	/*border:solid 1px red;*/
+	width:33.33%;
+	height: 100%;
+}
+div .start{
+	height:100%;
+	display: flex;
+	justify-content:flex-start;
+}
+div.start button{
+	border:none;
+	margin-left: 4.6%;
+}
+.start img:hover{
+	cursor: pointer;
+}
+div .center{
+	height:66%;
+	display: flex;
+	justify-content:flex-start;
+	margin:auto;
+}
+div .end{
+	display: flex;
+}
+.end1{
+	display:flex;
+	justify-content:flex-end;
+	margin-left: 35%;
+}
+.end1 button{
+	height:50%;
+	margin:auto;
+}
+.end2{
+	margin:auto;
+	display:flex;
+	justify-content: flex-end;
+}
+.end2 img:hover{
+	cursor:pointer;
+}
+section .menu{
+	width:5.3%;
+	height:660px;
+	display: flex;
+	flex-flow: column wrap;
+}
+.menu button{
+	background-color: white;
+	margin-bottom:20%;
+	border: solid 1px white;
+}
+div button:hover{
+	background-color: lightgray;
+	cursor: pointer;
+}
+section{
+	display: flex;
+}
+.content{
+	width: 94.7%;
+	display: flex;
+	flex-wrap: wrap;
+	height:40%;
+}
+.item{
+	display: flex;
+	flex-flow: column wrap;
+	margin:0.5rem;
+	font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    width:30%;
+}
+.item img{
+	width:100%;
+	margin-right: 0.7rem;
+}
+.item img:hover {
+	border: solid 1px black;
+	opacity: 0.5;
+	cursor: pointer;
+	T
+}
+ .title_u{
+	margin-top: 10px;
+	display: flex;
+	justify-content:flex-start;
+	width: 100%;
+}
+.title_u img{
+	width:4%;
+	border: none;
+}
+.tit{
+	flex-flow: column wrap;
+	display: flex;
+}
